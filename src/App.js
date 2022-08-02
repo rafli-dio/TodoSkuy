@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Article from "./pages/Article/Article";
 import Todo from "./pages/Todo/Todo";
+import FormArticle from "./pages/Article/FormArticle";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/todo" element={<Todo />} />
           <Route path="/article" element={<Article />} />
+          <Route path="/article/form-article" element={<FormArticle />} />
         </Routes>
       </BrowserRouter>
     </div>

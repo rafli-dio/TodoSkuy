@@ -1,0 +1,30 @@
+.form-wrap {
+    margin-top: 100px;
+}
+
+.form-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-article {
+    height: 300px;
+
+}
+
+.head-form-article {
+    margin-bottom: 20px;
+}
+
+.form-article label {
+    margin-left: 190px;
+}
+
+.form-article textarea {
+    width: 700px;
+    margin: auto;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}

@@ -3,6 +3,31 @@
     {
       "id": 1659180706173,
       "activity": "sekolah"
+    },
+    {
+      "id": 1659405240106,
+      "activity": "zxfasf"
+    },
+    {
+      "id": 1659405244612,
+      "activity": "asdasd"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Belajar React js",
+      "body": "Belajar React JS menyenangkan"
+    },
+    {
+      "id": 2,
+      "title": "Belajar React js",
+      "body": "Belajar React JS menyenangkan"
+    },
+    {
+      "id": 3,
+      "title": "Belajar React js",
+      "body": "Belajar React JS menyenangkan"
     }
   ]
 }
