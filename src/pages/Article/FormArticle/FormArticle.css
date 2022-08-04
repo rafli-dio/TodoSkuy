@@ -1,5 +1,20 @@
+.btn-back {
+    background-color: rgba(231, 231, 8, 0.897);
+    width: 150px;
+    margin-left: 980px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.btn-form-back {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+}
+
 .form-wrap {
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .form-article {
@@ -14,6 +29,7 @@
 
 .head-form-article {
     margin-bottom: 20px;
+    color: rgba(231, 231, 8, 0.897);
 }
 
 .form-article label {

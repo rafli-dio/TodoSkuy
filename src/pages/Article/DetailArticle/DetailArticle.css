@@ -1,0 +1,13 @@
+.wrap-detail-article {
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.wrap-detail-article h1 {
+    color: rgba(231, 231, 8, 0.897);
+}
+
+.wrap-detail-article p {
+    margin-top: 30px;
+}

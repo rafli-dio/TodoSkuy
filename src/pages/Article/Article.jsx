@@ -1,10 +1,10 @@
 import React , {Component}  from 'react';
 import axios from 'axios';
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import "./Article.css";
+import CardArticle from './CardArticle/CardArticle';
 
 class Article extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
@@ -26,6 +26,7 @@ class Article extends Component {
         this.getArticleFromAPI();
     }
 
+
     render() {
         return(
             <div className="container-article">
@@ -35,13 +36,7 @@ class Article extends Component {
                     {
                         this.state.article.map(article => {
                             return(
-                                <div className="item-article" key={article.id}>
-                                <img src="https://placeimg.com/280/200/arch" alt="" />
-                                <div className="word">
-                                    <h2>{article.title}</h2>
-                                    <p>{article.body}.</p>
-                                </div>
-                            </div>
+                                <CardArticle key={article.id} data={article}/>
                             )
                         })
                     }
